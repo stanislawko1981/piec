@@ -1,5 +1,22 @@
 .neighborhood-guides {
-  background-color:  #efefef;
-  border-bottom: 1px;
-  solid: #dbdbdb;
+  background-color:  none;
+  border-bottom: 1px solid: #dbdbdb;
   }
+.container {
+margin-left: 150px;
+padding-top: 30px;
+width: 1210px;
+height: 1605px;
+border: 10px solid #ffffff;
+background-color: #708090;
+}
+.container h1 {
+padding-top: 20px;
+margin-left: 50px;
+color: white;
+}
+.container p {
+padding-top: 20px;
+margin-left: 50px;
+color: black;
+}
