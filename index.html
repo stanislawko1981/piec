@@ -1,71 +1,65 @@
-
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- pierwsze trzy znaczniki  musza znajdowc sie w sekcji  HEAD, pozostale znaczniki umieszczymy ponizej -->
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="Stachu" content="">
     <link rel="icon" href="favicon.ico">
-    <title>Nauka o Bootstrap</title>
+    <title>Moja  strona</title>
     <!-- link do pliku  Bootstrap CSS-->
     <link href="bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="justified-nav.css" rel="stylesheet">
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="ie-emulation-modes-warning.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="main.css">
+    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
+    <link href='style.css' rel='stylesheet'>
+
   </head>
-
-<body>  
-
-
-  <a class="btn btn-default" href="#" role="button">Strona główna</a>
-  <a class="btn btn-default" href="#" role="button">Download</a>
-  <a class="btn btn-default" href="aktualnosci.html" role="button">Atualnosci</a>
-  <a class="btn btn-default" href="#" role="button">Kontakt</a>
-   
-
-<div class="jumbotron">
-</div>
-<div class="container">
-<h1> Witam,</h1>
-<p><b>ta strona poświęcona jest tematyce żeglarskiej.</p></b>
-</div>
+  <body>
 
 
+     <div class="menu">
 
-<div class="jumbotron">
-        <h1>Marketing stuff!</h1>
-        <p class="lead">Reklamy</p>
-</div>
+    <!--ikona menu-->
+     
 
-<div class="neighborhood-guides">
-  <div class="row"> 
-    <div class="col-md-1">
-        <div class="thumbnail"> 
-          <img src="1.jpg" class="img-circle"> <!--szkic psa format.jpg -->
-     </div>
-     </div>
-         <!-- Site footer -->
-<footer class="footer">
-  <p>&copy; by wikary 2015</p>
+      <!--rozwijana  listapo lewej stronie-->
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
 
-</footer>
-       </div>
+    <!-- Main body -->
+    <div class="jumbotron">
 
-    </div> <!-- /container -->
+      <div class="container">
+       
+        <div class="icon-menu">  
+        <div class="icon-close">        
+          <i class="fa fa-bars"></i>
+          <img src="menu.jpg">
+                      Menu
+        </div>
+        </div>
+          <div class="nav">
+              <a class="btn btn-default" href="#" role="button">Szukaj</a>
+              <a class="btn btn-default" href="#" role="button">Kontakt</a>
+              <a class="btn btn-default" href="aktualnosci.html" role="button">Pomoc</a>
+          </div>               
+      </div>
+    </div>
 
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="ie10-viewport-bug-workaround.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
