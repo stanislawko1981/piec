@@ -8,7 +8,7 @@ body {
 
 /* Initial menu */
 .menu {
-  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  background-color: black;
   left: -285px;  /* start off behind the scenes */
   height: 100%;
   position: fixed;
@@ -31,8 +31,8 @@ body {
   height: 50px;
 }
 .nav {
-  margin-left: 800px;
-
+  margin-left: 700px;
+  padding-top: 0px;
 }
 .menu ul {
   border-top: 1px solid #636366;
@@ -63,6 +63,10 @@ body {
   padding-top: 0px;
   
 }
+.icon-close h5{
+  color:white;
+  margin-left: 250px;
+}
 
 .icon-menu {
   color: #fff;
@@ -81,4 +85,18 @@ body {
 
 .icon-menu i {
   margin-right: 5px;
+}
+
+.article {
+  color: #red;
+  background: rgba(255,255,255,.9);
+  border-spacing: 2px;
+  border-color: gray;
+  font-family: arial,sans-serif;
+  border-bottom: 1px #e5e5e5 solid;
+}
+.description {
+  display: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }

@@ -19,6 +19,13 @@ var main = function() {
     $('body').animate({
       left: "0px"
     }, 200);
+ });
+
+/* Bartku  , jak  wstawic ponizszy kod w cala funkcje ?? Bez tego kodu  wszystko  dziala, 
+a powstawieniu tego kodu wszystko szlak trafia :) */
+$('.article')click(function(){
+    $('.description').hide();
+          $(this).children('description').show();
   });
 };
 
