@@ -88,12 +88,15 @@ body {
 }
 
 .article {
-  color: #red;
-  background: rgba(255,255,255,.9);
-  border-spacing: 2px;
-  border-color: gray;
-  font-family: arial,sans-serif;
-  border-bottom: 1px #e5e5e5 solid;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.like-button {
+  background-color: blue;
+}
 }
 .description {
   display: none;

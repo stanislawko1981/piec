@@ -21,13 +21,15 @@ var main = function() {
     }, 200);
  });
 
-/* Bartku  , jak  wstawic ponizszy kod w cala funkcje ?? Bez tego kodu  wszystko  dziala, 
-a powstawieniu tego kodu wszystko szlak trafia :) */
-$('.article')click(function(){
-    $('.description').hide();
-          $(this).children('description').show();
+    $('.article').click(function () {
+        $('.description').hide();
+        $(this).children('.description').show();
+    });
+
+  $('.like-button').click(function() {
+    $(this).toggleClass('active');
   });
-};
+}
 
 
 $(document).ready(main);
