@@ -65,7 +65,7 @@ body {
 }
 .icon-close h5{
   color:white;
-  margin-left: 250px;
+  margin-left: 220px;
 }
 
 .icon-menu {
@@ -94,12 +94,31 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.like-button {
-  background-color: blue;
+.neon {
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #fff;
 }
+.aktywne {
+  background-color: blue;  
+}
+
 }
 .description {
   display: none;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.dropdown-toggle{
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 0px;
+}
+.dropdown-menu {
+  background-color: black,
+  padding-top: 0px;
+  padding-bottom: 0px;
+
 }

@@ -23,13 +23,20 @@ var main = function() {
 
     $('.article').click(function () {
         $('.description').hide();
-        $(this).children('.description').show();
+          $(this).children('.description').show();
     });
 
-  $('.like-button').click(function() {
-    $(this).toggleClass('active');
+  $('.neon').click(function() {
+    $('.neon').removeClass('aktywne');
+      $(this).addClass('aktywne');
+     
+  });
+
+
+  $('.dropdown-toggle').click(function(){  
+    $('.dropdown-menu').show();
+      
   });
 }
-
 
 $(document).ready(main);
